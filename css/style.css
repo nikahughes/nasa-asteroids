@@ -1,0 +1,83 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+body{
+  background: url(background.jpg) no-repeat;
+  background-size: cover;
+  margin-left: 20%;
+}
+
+/* .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 60%;
+  margin-top: 20px;
+
+} */
+h1{
+  font-family: 'Akshar', sans-serif;
+  color: azure;
+  margin: 5% 10% 5% 0;
+}
+
+#request{
+  font-family: 'Akshar', sans-serif;
+  color: azure;
+  background-color: rgba(44, 45, 45, 0.6);
+  padding: 10px;
+  width:fit-content;
+  padding: 1rem;
+}
+
+input{
+  height: 2.2rem;
+  width: 10px;
+  cursor: pointer;
+}
+
+button{
+  height: 2.2rem;
+  background: radial-gradient(white, silver);
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.display-results{
+  font-family: 'Akshar', sans-serif;
+  color: azure;
+  background-color: rgba(44, 45, 45, 0.6);
+  padding: 1rem;
+  width: 60%;
+  margin-top: 5rem;
+}
+
+.hidden{
+  display: none;
+}
+
+
+img{
+  display: block;
+  margin: 0 auto;
+}
+
+input{
+  width: 300px;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
