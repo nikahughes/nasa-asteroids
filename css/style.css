@@ -17,14 +17,6 @@ body{
   margin-left: 20%;
 }
 
-/* .container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  width: 60%;
-  margin-top: 20px;
-
-} */
 h1{
   font-family: 'Akshar', sans-serif;
   color: azure;
@@ -67,12 +59,6 @@ button{
   display: none;
 }
 
-
-img{
-  display: block;
-  margin: 0 auto;
-}
-
 input{
   width: 300px;
 }
@@ -81,3 +67,26 @@ input{
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+@media all and (max-width: 850px) {
+
+  body{
+    background: url(mobile-background.jpeg) no-repeat;
+    margin: 10%;
+  }
+  
+  h1{
+    margin-bottom: 10%;
+  }
+
+  input{
+    margin-bottom: 10%;
+  }
+
+  
+  .display-results {
+    width:fit-content;
+    line-height: 3rem;
+  }
+
+}
